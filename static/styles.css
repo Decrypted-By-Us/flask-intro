@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.input-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-option {
+  border: none;
+}
+
+.input-form legend {
+  font-size: 30px;
+  color: blue;
+  margin-bottom: 15px;
+}
+
+.input-form label,
+.input-form input[type='radio'] {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.input-label {
+  color: green;
+}
+
+.input-form input[type='radio'] {
+  margin-left: 10px;
+}
+
+.input-form button {
+  margin-top: 20px;
+}

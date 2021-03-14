@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Let's Learn Flask!</title>
+    <link rel="stylesheet" href="../static/styles.css"/>
+</head>
+<body>
+    <form action='' method="post" class="input-form">
+
+        <fieldset class="text-option">
+
+            <legend><strong>Choose What to Do!</strong></legend>
+
+            <label for="count-words">
+              <span>Count Words</span>
+              <input id="count-words" name="text-choice" type="radio" value="count"/>
+            </label>
+
+            <label for="length-word">
+              <span>Length of Word</span>
+              <input id="length-word" name="text-choice" type="radio" value="length"/>
+            </label>
+
+            <label for="palindrome">
+              <span>Check if Palindrome</span>
+              <input id="palindrome" name="text-choice" type="radio" value="pdrome"/>
+            </label>
+
+            <label for="reverse">
+              <span>Reverse String</span>
+              <input id="reverse" name="text-choice" type="radio" value="rv"/>
+            </label>
+
+        </fieldset>
+
+          <label class="input-label" for="user-input"><strong>Input Your Text</strong></label>
+          <textarea id="user-input" name="user-input"></textarea>
+
+        <button type="submit">Submit</button>
+
+    </form>
+
+</body>
+</html>
