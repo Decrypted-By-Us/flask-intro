@@ -19,7 +19,7 @@ def reverse(text):
 
 @app.route('/count/<text>')
 def count_words(text):
-    return str(len(re.findall(r'\w+', text)))
+    return str(len(re.findall(r"(?=\S*['-])([a-zA-Z'-]+)|\w+", text)))
 
 
 @app.route('/length/<word>')
